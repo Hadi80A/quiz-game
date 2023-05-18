@@ -1,0 +1,53 @@
+#optionButton {
+    -fx-text-alignment: center;
+    -fx-background-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-color: cyan;
+    -fx-text-fill:cyan;
+    -fx-border-radius: 50%;
+    -fx-padding:1em 2em 0.9em 2em;
+}
+
+#optionButton:hover {
+    -fx-border-color: derive(cyan, -20%);
+    -fx-text-fill:derive(cyan, -20%);
+}
+
+#question{
+    -fx-background-image: url("background.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 416 510;
+    -fx-background-position: center center;
+}
+#startScreen{
+    -fx-background-image: url(startScreen.png);
+    -fx-background-repeat: stretch;
+    -fx-background-size: 416 510;
+    -fx-background-position: center center;
+}
+#chat{
+    -fx-background-image: url(chat.jpg);
+    -fx-background-repeat: stretch;
+    -fx-background-size: 193 480;
+    -fx-border-width: 0px;
+}
+#scorePane{
+    -fx-background-image: url("scoreboard.png");
+}
+
+
+#scoreBoard{
+    -fx-background-color: transparent;
+}
+
+#root{
+    -fx-background-image: url("final.png");
+}
+.progress-indicator .percentage {
+    -fx-fill: cyan;
+}
+
+
+.progress-bar > .track{
+    -fx-background-color: transparent;
+}
